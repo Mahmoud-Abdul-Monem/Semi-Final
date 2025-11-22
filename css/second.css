@@ -753,4 +753,5 @@ header .logo p {
 
 .svgg {
     z-index: 0 !important;
+    display: none !important;
 }
