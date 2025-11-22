@@ -335,3 +335,34 @@ header .logo p {
     }
 
 }
+
+@media (max-width: 768px) {
+    nav .nav-all {
+        display: none !important;
+    }
+}
+
+.hamburger {
+    width: 35px;
+    height: 28px;
+    border: none;
+    background: none;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    height: 4px;
+    width: 100%;
+    background: #000;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+}
